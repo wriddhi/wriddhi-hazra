@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Header from "@/components/Header";
+import { Header } from "@/components/Header";
 
 export default function ChatPage() {
   return (
@@ -15,7 +15,9 @@ export default function ChatPage() {
             Obi-Wan Kenobi
             <time className="text-xs opacity-50 ml-2">12:45</time>
           </div>
-          <div className="chat-bubble bg-white/10">You were the Chosen One!</div>
+          <div className="chat-bubble bg-white/10">
+            You were the Chosen One!
+          </div>
           <div className="chat-footer opacity-50">Delivered</div>
         </div>
         <div className="chat chat-end">
