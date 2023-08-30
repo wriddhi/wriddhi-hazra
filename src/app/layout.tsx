@@ -1,9 +1,9 @@
 // "use client";
-
 import { Header } from "@/components/Header";
 import "./globals.css";
 import { Outfit } from "next/font/google";
 import localFont from "next/font/local";
+import Footer from "@/components/Footer";
 
 const machina = localFont({
   src: [
@@ -46,7 +46,8 @@ export default function RootLayout({
         <div className="space-glow absolute -top-44 left-1/2 -translate-x-1/2 -translate-y-3/4"></div>
         <Header />
         {children}
-        <div className="relative overflow-hidden w-full h-[200px]">
+        <Footer />
+        <div className="absolute bottom-0 overflow-hidden w-full h-[200px]">
           <div className="space-glow absolute -bottom-32 left-1/2 -translate-x-1/2 translate-y-full"></div>
         </div>
       </body>

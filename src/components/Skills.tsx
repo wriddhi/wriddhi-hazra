@@ -64,7 +64,7 @@ const Slide = ({ name, icon }: SlideProps) => {
 
 export default function Skills() {
   return (
-    <div className="slider h-[100px] lg:h-[150px] w-screen mx-auto grid place-items-center relative overflow-hidden">
+    <div className="slider h-[150px] w-screen mx-auto grid place-items-center relative overflow-hidden">
       <div className="slideTrack">
         {Object.entries(icons).map(([name, icon]) => {
           return <Slide name={name} icon={icon} key={name} />;

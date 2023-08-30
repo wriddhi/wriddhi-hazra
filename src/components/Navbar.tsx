@@ -36,7 +36,7 @@ const MobileNavbar = () => {
           ))}
         </ul>
         <div className="ml-6 mt-10 w-full">
-          <Socials />
+          <Socials className="w-full flex justify-start items-center gap-6 text-2xl" />
         </div>
       </nav>
       <button
