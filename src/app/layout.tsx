@@ -5,6 +5,8 @@ import { Outfit } from "next/font/google";
 import localFont from "next/font/local";
 import Footer from "@/components/Footer";
 
+import { Analytics } from '@vercel/analytics/react';
+
 const machina = localFont({
   src: [
     {
@@ -60,6 +62,7 @@ export default function RootLayout({
         <div className="space-glow absolute -top-44 left-1/2 -translate-x-1/2 -translate-y-3/4"></div>
         <Header />
         {children}
+        <Analytics />
         <Footer />
         <div className="absolute bottom-0 overflow-hidden w-full h-[200px]">
           <div className="space-glow absolute -bottom-32 left-1/2 -translate-x-1/2 translate-y-full"></div>
