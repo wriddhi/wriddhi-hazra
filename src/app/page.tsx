@@ -1,13 +1,14 @@
 import Skills from "@/components/Skills";
 import Image from "next/image";
+import MotionSection from "@/components/MotionSection";
 
 export default function Home() {
   return (
     <main
-      className={`h-full w-full flex-1 flex flex-col justify-start items-center gap-10 lg:gap-20`}
+      className={`h-full w-full lg:px-20 flex-1 flex flex-col justify-start items-center gap-10 lg:gap-20`}
     >
       {/* <iframe src="https://facein-delta.vercel.app/" height={800} width={450} className="scale-75 rounded-box outline outline-1" /> */}
-      <section className="mt-24 lg:mx-20 flex flex-col-reverse lg:flex-row justify-between items-center gap-16 divide-white">
+      <MotionSection className="mt-20 lg:mt-32 flex flex-col-reverse lg:flex-row justify-between items-center gap-16">
         <div
           id="hero-text-container"
           className="flex-1 text-center lg:text-start"
@@ -48,235 +49,28 @@ export default function Home() {
             Online
           </span>
         </div>
-      </section>
-      <section className="lg:my-20 ">
+      </MotionSection>
+      <MotionSection className="lg:my-20 ">
         <Skills />
-      </section>
-      <section>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem
-        libero, accusamus magnam deserunt sapiente iusto sequi repellendus
-        reprehenderit iure numquam commodi dolorem maxime, nesciunt modi dolore
-        praesentium cumque pariatur eligendi incidunt perferendis doloremque
-        animi, suscipit temporibus quia? Minima ipsam reprehenderit, amet
-        blanditiis nulla reiciendis aperiam neque et magni quaerat iusto eum
-        recusandae consequatur quam sapiente, ipsum officiis at expedita?
-        Facilis vero accusamus consectetur quo aperiam necessitatibus
-        consequuntur ratione. Commodi tenetur repellendus nostrum cumque
-        similique. Commodi, id hic. Tempora, esse mollitia quas omnis fugiat
-        voluptate necessitatibus explicabo nemo optio sapiente cupiditate eius
-        quidem autem deserunt ullam inventore deleniti eligendi tempore unde,
-        laborum vero aspernatur. Aliquid facilis sapiente ex corrupti, culpa at
-        sunt sed modi distinctio! Earum officia at repellat. Repellendus minus
-        voluptatum ipsam rem, ducimus enim odit pariatur, recusandae voluptatem
-        atque et aliquid dolor, labore molestiae. Consequatur molestiae enim
-        atque et, porro maiores fugit. Deleniti eaque ut placeat excepturi
-        dolores. Repellat libero beatae ratione est vel esse quos voluptatem
-        impedit, autem nemo eum iure, cupiditate sapiente modi consequuntur
-        pariatur nisi, consequatur repudiandae! Dolores hic necessitatibus magni
-        deserunt rerum repellendus suscipit similique qui aut, aliquid totam sit
-        in nesciunt velit possimus, consequuntur aliquam unde cum repellat.
-        Ullam a ducimus quod commodi. Dolor.
-      </section>
-      <section>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem
-        libero, accusamus magnam deserunt sapiente iusto sequi repellendus
-        reprehenderit iure numquam commodi dolorem maxime, nesciunt modi dolore
-        praesentium cumque pariatur eligendi incidunt perferendis doloremque
-        animi, suscipit temporibus quia? Minima ipsam reprehenderit, amet
-        blanditiis nulla reiciendis aperiam neque et magni quaerat iusto eum
-        recusandae consequatur quam sapiente, ipsum officiis at expedita?
-        Facilis vero accusamus consectetur quo aperiam necessitatibus
-        consequuntur ratione. Commodi tenetur repellendus nostrum cumque
-        similique. Commodi, id hic. Tempora, esse mollitia quas omnis fugiat
-        voluptate necessitatibus explicabo nemo optio sapiente cupiditate eius
-        quidem autem deserunt ullam inventore deleniti eligendi tempore unde,
-        laborum vero aspernatur. Aliquid facilis sapiente ex corrupti, culpa at
-        sunt sed modi distinctio! Earum officia at repellat. Repellendus minus
-        voluptatum ipsam rem, ducimus enim odit pariatur, recusandae voluptatem
-        atque et aliquid dolor, labore molestiae. Consequatur molestiae enim
-        atque et, porro maiores fugit. Deleniti eaque ut placeat excepturi
-        dolores. Repellat libero beatae ratione est vel esse quos voluptatem
-        impedit, autem nemo eum iure, cupiditate sapiente modi consequuntur
-        pariatur nisi, consequatur repudiandae! Dolores hic necessitatibus magni
-        deserunt rerum repellendus suscipit similique qui aut, aliquid totam sit
-        in nesciunt velit possimus, consequuntur aliquam unde cum repellat.
-        Ullam a ducimus quod commodi. Dolor.
-      </section>
-      <section>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem
-        libero, accusamus magnam deserunt sapiente iusto sequi repellendus
-        reprehenderit iure numquam commodi dolorem maxime, nesciunt modi dolore
-        praesentium cumque pariatur eligendi incidunt perferendis doloremque
-        animi, suscipit temporibus quia? Minima ipsam reprehenderit, amet
-        blanditiis nulla reiciendis aperiam neque et magni quaerat iusto eum
-        recusandae consequatur quam sapiente, ipsum officiis at expedita?
-        Facilis vero accusamus consectetur quo aperiam necessitatibus
-        consequuntur ratione. Commodi tenetur repellendus nostrum cumque
-        similique. Commodi, id hic. Tempora, esse mollitia quas omnis fugiat
-        voluptate necessitatibus explicabo nemo optio sapiente cupiditate eius
-        quidem autem deserunt ullam inventore deleniti eligendi tempore unde,
-        laborum vero aspernatur. Aliquid facilis sapiente ex corrupti, culpa at
-        sunt sed modi distinctio! Earum officia at repellat. Repellendus minus
-        voluptatum ipsam rem, ducimus enim odit pariatur, recusandae voluptatem
-        atque et aliquid dolor, labore molestiae. Consequatur molestiae enim
-        atque et, porro maiores fugit. Deleniti eaque ut placeat excepturi
-        dolores. Repellat libero beatae ratione est vel esse quos voluptatem
-        impedit, autem nemo eum iure, cupiditate sapiente modi consequuntur
-        pariatur nisi, consequatur repudiandae! Dolores hic necessitatibus magni
-        deserunt rerum repellendus suscipit similique qui aut, aliquid totam sit
-        in nesciunt velit possimus, consequuntur aliquam unde cum repellat.
-        Ullam a ducimus quod commodi. Dolor.
-      </section>
-      <section>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem
-        libero, accusamus magnam deserunt sapiente iusto sequi repellendus
-        reprehenderit iure numquam commodi dolorem maxime, nesciunt modi dolore
-        praesentium cumque pariatur eligendi incidunt perferendis doloremque
-        animi, suscipit temporibus quia? Minima ipsam reprehenderit, amet
-        blanditiis nulla reiciendis aperiam neque et magni quaerat iusto eum
-        recusandae consequatur quam sapiente, ipsum officiis at expedita?
-        Facilis vero accusamus consectetur quo aperiam necessitatibus
-        consequuntur ratione. Commodi tenetur repellendus nostrum cumque
-        similique. Commodi, id hic. Tempora, esse mollitia quas omnis fugiat
-        voluptate necessitatibus explicabo nemo optio sapiente cupiditate eius
-        quidem autem deserunt ullam inventore deleniti eligendi tempore unde,
-        laborum vero aspernatur. Aliquid facilis sapiente ex corrupti, culpa at
-        sunt sed modi distinctio! Earum officia at repellat. Repellendus minus
-        voluptatum ipsam rem, ducimus enim odit pariatur, recusandae voluptatem
-        atque et aliquid dolor, labore molestiae. Consequatur molestiae enim
-        atque et, porro maiores fugit. Deleniti eaque ut placeat excepturi
-        dolores. Repellat libero beatae ratione est vel esse quos voluptatem
-        impedit, autem nemo eum iure, cupiditate sapiente modi consequuntur
-        pariatur nisi, consequatur repudiandae! Dolores hic necessitatibus magni
-        deserunt rerum repellendus suscipit similique qui aut, aliquid totam sit
-        in nesciunt velit possimus, consequuntur aliquam unde cum repellat.
-        Ullam a ducimus quod commodi. Dolor.
-      </section>
-      <section>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem
-        libero, accusamus magnam deserunt sapiente iusto sequi repellendus
-        reprehenderit iure numquam commodi dolorem maxime, nesciunt modi dolore
-        praesentium cumque pariatur eligendi incidunt perferendis doloremque
-        animi, suscipit temporibus quia? Minima ipsam reprehenderit, amet
-        blanditiis nulla reiciendis aperiam neque et magni quaerat iusto eum
-        recusandae consequatur quam sapiente, ipsum officiis at expedita?
-        Facilis vero accusamus consectetur quo aperiam necessitatibus
-        consequuntur ratione. Commodi tenetur repellendus nostrum cumque
-        similique. Commodi, id hic. Tempora, esse mollitia quas omnis fugiat
-        voluptate necessitatibus explicabo nemo optio sapiente cupiditate eius
-        quidem autem deserunt ullam inventore deleniti eligendi tempore unde,
-        laborum vero aspernatur. Aliquid facilis sapiente ex corrupti, culpa at
-        sunt sed modi distinctio! Earum officia at repellat. Repellendus minus
-        voluptatum ipsam rem, ducimus enim odit pariatur, recusandae voluptatem
-        atque et aliquid dolor, labore molestiae. Consequatur molestiae enim
-        atque et, porro maiores fugit. Deleniti eaque ut placeat excepturi
-        dolores. Repellat libero beatae ratione est vel esse quos voluptatem
-        impedit, autem nemo eum iure, cupiditate sapiente modi consequuntur
-        pariatur nisi, consequatur repudiandae! Dolores hic necessitatibus magni
-        deserunt rerum repellendus suscipit similique qui aut, aliquid totam sit
-        in nesciunt velit possimus, consequuntur aliquam unde cum repellat.
-        Ullam a ducimus quod commodi. Dolor.
-      </section>
-      <section>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem
-        libero, accusamus magnam deserunt sapiente iusto sequi repellendus
-        reprehenderit iure numquam commodi dolorem maxime, nesciunt modi dolore
-        praesentium cumque pariatur eligendi incidunt perferendis doloremque
-        animi, suscipit temporibus quia? Minima ipsam reprehenderit, amet
-        blanditiis nulla reiciendis aperiam neque et magni quaerat iusto eum
-        recusandae consequatur quam sapiente, ipsum officiis at expedita?
-        Facilis vero accusamus consectetur quo aperiam necessitatibus
-        consequuntur ratione. Commodi tenetur repellendus nostrum cumque
-        similique. Commodi, id hic. Tempora, esse mollitia quas omnis fugiat
-        voluptate necessitatibus explicabo nemo optio sapiente cupiditate eius
-        quidem autem deserunt ullam inventore deleniti eligendi tempore unde,
-        laborum vero aspernatur. Aliquid facilis sapiente ex corrupti, culpa at
-        sunt sed modi distinctio! Earum officia at repellat. Repellendus minus
-        voluptatum ipsam rem, ducimus enim odit pariatur, recusandae voluptatem
-        atque et aliquid dolor, labore molestiae. Consequatur molestiae enim
-        atque et, porro maiores fugit. Deleniti eaque ut placeat excepturi
-        dolores. Repellat libero beatae ratione est vel esse quos voluptatem
-        impedit, autem nemo eum iure, cupiditate sapiente modi consequuntur
-        pariatur nisi, consequatur repudiandae! Dolores hic necessitatibus magni
-        deserunt rerum repellendus suscipit similique qui aut, aliquid totam sit
-        in nesciunt velit possimus, consequuntur aliquam unde cum repellat.
-        Ullam a ducimus quod commodi. Dolor.
-      </section>
-      <section>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem
-        libero, accusamus magnam deserunt sapiente iusto sequi repellendus
-        reprehenderit iure numquam commodi dolorem maxime, nesciunt modi dolore
-        praesentium cumque pariatur eligendi incidunt perferendis doloremque
-        animi, suscipit temporibus quia? Minima ipsam reprehenderit, amet
-        blanditiis nulla reiciendis aperiam neque et magni quaerat iusto eum
-        recusandae consequatur quam sapiente, ipsum officiis at expedita?
-        Facilis vero accusamus consectetur quo aperiam necessitatibus
-        consequuntur ratione. Commodi tenetur repellendus nostrum cumque
-        similique. Commodi, id hic. Tempora, esse mollitia quas omnis fugiat
-        voluptate necessitatibus explicabo nemo optio sapiente cupiditate eius
-        quidem autem deserunt ullam inventore deleniti eligendi tempore unde,
-        laborum vero aspernatur. Aliquid facilis sapiente ex corrupti, culpa at
-        sunt sed modi distinctio! Earum officia at repellat. Repellendus minus
-        voluptatum ipsam rem, ducimus enim odit pariatur, recusandae voluptatem
-        atque et aliquid dolor, labore molestiae. Consequatur molestiae enim
-        atque et, porro maiores fugit. Deleniti eaque ut placeat excepturi
-        dolores. Repellat libero beatae ratione est vel esse quos voluptatem
-        impedit, autem nemo eum iure, cupiditate sapiente modi consequuntur
-        pariatur nisi, consequatur repudiandae! Dolores hic necessitatibus magni
-        deserunt rerum repellendus suscipit similique qui aut, aliquid totam sit
-        in nesciunt velit possimus, consequuntur aliquam unde cum repellat.
-        Ullam a ducimus quod commodi. Dolor.
-      </section>
-      <section>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem
-        libero, accusamus magnam deserunt sapiente iusto sequi repellendus
-        reprehenderit iure numquam commodi dolorem maxime, nesciunt modi dolore
-        praesentium cumque pariatur eligendi incidunt perferendis doloremque
-        animi, suscipit temporibus quia? Minima ipsam reprehenderit, amet
-        blanditiis nulla reiciendis aperiam neque et magni quaerat iusto eum
-        recusandae consequatur quam sapiente, ipsum officiis at expedita?
-        Facilis vero accusamus consectetur quo aperiam necessitatibus
-        consequuntur ratione. Commodi tenetur repellendus nostrum cumque
-        similique. Commodi, id hic. Tempora, esse mollitia quas omnis fugiat
-        voluptate necessitatibus explicabo nemo optio sapiente cupiditate eius
-        quidem autem deserunt ullam inventore deleniti eligendi tempore unde,
-        laborum vero aspernatur. Aliquid facilis sapiente ex corrupti, culpa at
-        sunt sed modi distinctio! Earum officia at repellat. Repellendus minus
-        voluptatum ipsam rem, ducimus enim odit pariatur, recusandae voluptatem
-        atque et aliquid dolor, labore molestiae. Consequatur molestiae enim
-        atque et, porro maiores fugit. Deleniti eaque ut placeat excepturi
-        dolores. Repellat libero beatae ratione est vel esse quos voluptatem
-        impedit, autem nemo eum iure, cupiditate sapiente modi consequuntur
-        pariatur nisi, consequatur repudiandae! Dolores hic necessitatibus magni
-        deserunt rerum repellendus suscipit similique qui aut, aliquid totam sit
-        in nesciunt velit possimus, consequuntur aliquam unde cum repellat.
-        Ullam a ducimus quod commodi. Dolor.
-      </section>
-      <section>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Exercitationem
-        libero, accusamus magnam deserunt sapiente iusto sequi repellendus
-        reprehenderit iure numquam commodi dolorem maxime, nesciunt modi dolore
-        praesentium cumque pariatur eligendi incidunt perferendis doloremque
-        animi, suscipit temporibus quia? Minima ipsam reprehenderit, amet
-        blanditiis nulla reiciendis aperiam neque et magni quaerat iusto eum
-        recusandae consequatur quam sapiente, ipsum officiis at expedita?
-        Facilis vero accusamus consectetur quo aperiam necessitatibus
-        consequuntur ratione. Commodi tenetur repellendus nostrum cumque
-        similique. Commodi, id hic. Tempora, esse mollitia quas omnis fugiat
-        voluptate necessitatibus explicabo nemo optio sapiente cupiditate eius
-        quidem autem deserunt ullam inventore deleniti eligendi tempore unde,
-        laborum vero aspernatur. Aliquid facilis sapiente ex corrupti, culpa at
-        sunt sed modi distinctio! Earum officia at repellat. Repellendus minus
-        voluptatum ipsam rem, ducimus enim odit pariatur, recusandae voluptatem
-        atque et aliquid dolor, labore molestiae. Consequatur molestiae enim
-        atque et, porro maiores fugit. Deleniti eaque ut placeat excepturi
-        dolores. Repellat libero beatae ratione est vel esse quos voluptatem
-        impedit, autem nemo eum iure, cupiditate sapiente modi consequuntur
-        pariatur nisi, consequatur repudiandae! Dolores hic necessitatibus magni
-        deserunt rerum repellendus suscipit similique qui aut, aliquid totam sit
-        in nesciunt velit possimus, consequuntur aliquam unde cum repellat.
-        Ullam a ducimus quod commodi. Dolor.
-      </section>
+      </MotionSection>
+      {Array(10)
+        .fill(0)
+        .map((_, index) => (
+          <MotionSection delay={index/2} className="text-justify lg:text-3xl" key={index}>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam
+            incidunt totam itaque minima laboriosam cum excepturi ea non, unde
+            labore ab quis, nulla sequi ut nisi aperiam placeat ipsam.
+            Praesentium eum officiis sit in deleniti quos provident culpa
+            accusantium dicta corporis rerum totam sunt ad ratione perspiciatis
+            placeat quae tempora sint ab incidunt molestias, pariatur ut.
+            Minima, expedita consequatur eos porro rerum veritatis debitis
+            itaque tenetur? Iusto tempora delectus beatae ab. Voluptate
+            obcaecati amet molestias odit, maxime unde. Assumenda dolor atque
+            magnam nostrum. Tempora voluptatibus, alias, quisquam, similique ad
+            modi molestias minima maiores harum officiis pariatur quia atque at
+            iste!
+          </MotionSection>
+        ))}
     </main>
   );
 }

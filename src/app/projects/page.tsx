@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const page = () => {
   return (
-    <div>projects page</div>
-  )
-}
+    <main className="h-full w-full flex-1 grid place-items-center ">
+      projects
+    </main>
+  );
+};
 
-export default page
+export default page;

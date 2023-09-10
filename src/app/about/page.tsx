@@ -2,13 +2,14 @@
 import React from "react";
 import Image from "next/image";
 import Timeline from "@/components/Timeline";
+import MotionSection from "@/components/MotionSection";
 
 const page = () => {
   return (
     <main
       className={`h-full w-3/4 flex-1 flex flex-col justify-center items-center gap-10 lg:gap-20`}
     >
-      <section
+      <MotionSection
         id="intro"
         className="flex flex-col lg:flex-row my-24 w-full bg-dots justify-start items-center gap-16"
       >
@@ -55,7 +56,7 @@ const page = () => {
             users in dynamic digital journeys.
           </p>
         </div>
-      </section>
+      </MotionSection>
       <section>
         <Timeline />
       </section>

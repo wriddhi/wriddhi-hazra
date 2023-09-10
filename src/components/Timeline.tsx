@@ -6,7 +6,7 @@ type PeriodProps = {
 
 const Period = ({ start, end }: PeriodProps): JSX.Element => {
   return (
-    <span className="bg-white/10 p-4 rounded-[2rem] outline outline-white/60">
+    <span className="bg-purple-600/10 p-4 rounded-[2rem]">
       {start} - {end}
     </span>
   );

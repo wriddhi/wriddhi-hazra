@@ -8,7 +8,6 @@ import Socials from "./Socials";
 const links = ["about", "projects", "", "resume", "contact"];
 
 const MobileNavbar = () => {
-
   const [open, setOpen] = useState<boolean>(false);
   const navRef = useRef<HTMLElement>(null);
 
@@ -23,26 +22,35 @@ const MobileNavbar = () => {
         <span className="text-white text-lg">Hazra</span>
       </Link>
       <nav
-      id="mobile-nav"
+        id="mobile-nav"
         ref={navRef}
         className="overflow-hidden bg-gradient-to-b from-black/50 to-white/10 backdrop-blur-sm w-full h-96 absolute inset-0 -translate-y-full transition-all duration-700 -z-10 rounded-b-3xl"
       >
         <ul className="mt-16 ml-6 text-white">
-          {links.map((href, index) => (
-            href &&
-            <li className="py-3" key={href}>
-              <Link href={"/" + href}> {href} </Link>
-            </li>
-          ))}
+          {links.map(
+            (href, index) =>
+              href && (
+                <li className="py-3" key={href}>
+                  <Link title={href} href={"/" + href}>
+                    {" "}
+                    {href}{" "}
+                  </Link>
+                </li>
+              )
+          )}
         </ul>
         <div className="ml-6 mt-10 w-full">
           <Socials className="w-full flex justify-start items-center gap-6 text-2xl" />
         </div>
       </nav>
       <button
+        aria-label={open ? "Close Menu" : "Open Menu"} // Describe the action based on the state
+        title={open ? "Close Menu" : "Open Menu"} // Provide a title for the tooltip
         onClick={() => {
           setOpen((prev) => !prev);
         }}
+        role="button" // Indicate that this is a button element
+        aria-expanded={open} // Indicate if the menu is expanded or not
       >
         {!open ? (
           <svg
@@ -85,30 +93,18 @@ const Navbar = () => {
 
   return (
     <React.Fragment>
-      <nav id="desktop-nav" className="hidden lg:flex mx-auto justify-center w-full">
+      <nav
+        id="desktop-nav"
+        className="hidden lg:flex mx-auto justify-center w-full"
+      >
         <ul className="flex w-full justify-between items-center select-none">
           {links.map((href, index) => (
             <React.Fragment key={`${href}`}>
               <li
-                className={`bg-transparent hover:text-white focus-within:text-white border-none outline-none font-machina lowercase font-medium ${
+                id="nav-list-item"
+                className={`bg-transparent relative hover:text-white focus-within:text-white border-none outline-none font-machina lowercase font-medium ${
                   router === "/" + href ? "text-white" : "text-slate-300"
                 }`}
-                onFocus={(e) => {
-                  e.currentTarget.classList.add("hover-in");
-                  e.currentTarget.classList.remove("hover-out");
-                }}
-                onBlur={(e) => {
-                  e.currentTarget.classList.remove("hover-in");
-                  e.currentTarget.classList.add("hover-out");
-                }}
-                onMouseEnter={(e) => {
-                  e.currentTarget.classList.add("hover-in");
-                  e.currentTarget.classList.remove("hover-out");
-                }}
-                onMouseLeave={(e) => {
-                  e.currentTarget.classList.remove("hover-in");
-                  e.currentTarget.classList.add("hover-out");
-                }}
               >
                 <Link href={"/" + href}>
                   {href ? (

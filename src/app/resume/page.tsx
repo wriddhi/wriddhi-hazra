@@ -1,9 +1,12 @@
-import React from 'react'
+import ResumePrinter from "@/components/resume/Resume";
+import React from "react";
 
 const page = () => {
   return (
-    <div className='h-full w-full flex-1'>resume page</div>
-  )
-}
+    <main className="h-full w-full overflow-x-hidden">
+      <ResumePrinter />
+    </main>
+  );
+};
 
-export default page
+export default page;
