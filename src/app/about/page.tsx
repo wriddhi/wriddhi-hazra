@@ -11,7 +11,7 @@ const page = () => {
     >
       <MotionSection
         id="intro"
-        className="flex flex-col lg:flex-row my-24 w-full bg-dots justify-start items-center gap-16"
+        className="flex flex-col lg:flex-row mt-10 w-full bg-dots justify-start items-center gap-16"
       >
         <div
           id="intro-image"
@@ -57,121 +57,6 @@ const page = () => {
           </p>
         </div>
       </MotionSection>
-      <section>
-        <Timeline />
-      </section>
-      <section>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam
-        perspiciatis, explicabo et sint voluptate dolorum, optio quos
-        dignissimos, nesciunt eaque dicta odit ea veniam vitae! Cupiditate odit
-        debitis molestias rerum eius, maxime voluptas iste beatae necessitatibus
-        tempora commodi veritatis nulla quidem dolorum, repudiandae eligendi
-        optio nobis, doloribus dolorem rem dolores corrupti quibusdam atque.
-        Ratione, inventore veniam debitis nam odit cupiditate dolor quos
-        excepturi possimus repellendus officiis distinctio autem voluptate
-        soluta dolores, temporibus eum ducimus ullam sunt atque, reiciendis
-        nemo. Exercitationem sapiente culpa, sint expedita quas beatae
-        perferendis debitis ad, ullam ratione molestias dicta esse illum quos
-        maxime veritatis praesentium repellat?
-      </section>
-      <section>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam
-        perspiciatis, explicabo et sint voluptate dolorum, optio quos
-        dignissimos, nesciunt eaque dicta odit ea veniam vitae! Cupiditate odit
-        debitis molestias rerum eius, maxime voluptas iste beatae necessitatibus
-        tempora commodi veritatis nulla quidem dolorum, repudiandae eligendi
-        optio nobis, doloribus dolorem rem dolores corrupti quibusdam atque.
-        Ratione, inventore veniam debitis nam odit cupiditate dolor quos
-        excepturi possimus repellendus officiis distinctio autem voluptate
-        soluta dolores, temporibus eum ducimus ullam sunt atque, reiciendis
-        nemo. Exercitationem sapiente culpa, sint expedita quas beatae
-        perferendis debitis ad, ullam ratione molestias dicta esse illum quos
-        maxime veritatis praesentium repellat?
-      </section>
-      <section>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam
-        perspiciatis, explicabo et sint voluptate dolorum, optio quos
-        dignissimos, nesciunt eaque dicta odit ea veniam vitae! Cupiditate odit
-        debitis molestias rerum eius, maxime voluptas iste beatae necessitatibus
-        tempora commodi veritatis nulla quidem dolorum, repudiandae eligendi
-        optio nobis, doloribus dolorem rem dolores corrupti quibusdam atque.
-        Ratione, inventore veniam debitis nam odit cupiditate dolor quos
-        excepturi possimus repellendus officiis distinctio autem voluptate
-        soluta dolores, temporibus eum ducimus ullam sunt atque, reiciendis
-        nemo. Exercitationem sapiente culpa, sint expedita quas beatae
-        perferendis debitis ad, ullam ratione molestias dicta esse illum quos
-        maxime veritatis praesentium repellat?
-      </section>
-      <section>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam
-        perspiciatis, explicabo et sint voluptate dolorum, optio quos
-        dignissimos, nesciunt eaque dicta odit ea veniam vitae! Cupiditate odit
-        debitis molestias rerum eius, maxime voluptas iste beatae necessitatibus
-        tempora commodi veritatis nulla quidem dolorum, repudiandae eligendi
-        optio nobis, doloribus dolorem rem dolores corrupti quibusdam atque.
-        Ratione, inventore veniam debitis nam odit cupiditate dolor quos
-        excepturi possimus repellendus officiis distinctio autem voluptate
-        soluta dolores, temporibus eum ducimus ullam sunt atque, reiciendis
-        nemo. Exercitationem sapiente culpa, sint expedita quas beatae
-        perferendis debitis ad, ullam ratione molestias dicta esse illum quos
-        maxime veritatis praesentium repellat?
-      </section>
-      <section>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam
-        perspiciatis, explicabo et sint voluptate dolorum, optio quos
-        dignissimos, nesciunt eaque dicta odit ea veniam vitae! Cupiditate odit
-        debitis molestias rerum eius, maxime voluptas iste beatae necessitatibus
-        tempora commodi veritatis nulla quidem dolorum, repudiandae eligendi
-        optio nobis, doloribus dolorem rem dolores corrupti quibusdam atque.
-        Ratione, inventore veniam debitis nam odit cupiditate dolor quos
-        excepturi possimus repellendus officiis distinctio autem voluptate
-        soluta dolores, temporibus eum ducimus ullam sunt atque, reiciendis
-        nemo. Exercitationem sapiente culpa, sint expedita quas beatae
-        perferendis debitis ad, ullam ratione molestias dicta esse illum quos
-        maxime veritatis praesentium repellat?
-      </section>
-      <section>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam
-        perspiciatis, explicabo et sint voluptate dolorum, optio quos
-        dignissimos, nesciunt eaque dicta odit ea veniam vitae! Cupiditate odit
-        debitis molestias rerum eius, maxime voluptas iste beatae necessitatibus
-        tempora commodi veritatis nulla quidem dolorum, repudiandae eligendi
-        optio nobis, doloribus dolorem rem dolores corrupti quibusdam atque.
-        Ratione, inventore veniam debitis nam odit cupiditate dolor quos
-        excepturi possimus repellendus officiis distinctio autem voluptate
-        soluta dolores, temporibus eum ducimus ullam sunt atque, reiciendis
-        nemo. Exercitationem sapiente culpa, sint expedita quas beatae
-        perferendis debitis ad, ullam ratione molestias dicta esse illum quos
-        maxime veritatis praesentium repellat?
-      </section>
-      <section>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam
-        perspiciatis, explicabo et sint voluptate dolorum, optio quos
-        dignissimos, nesciunt eaque dicta odit ea veniam vitae! Cupiditate odit
-        debitis molestias rerum eius, maxime voluptas iste beatae necessitatibus
-        tempora commodi veritatis nulla quidem dolorum, repudiandae eligendi
-        optio nobis, doloribus dolorem rem dolores corrupti quibusdam atque.
-        Ratione, inventore veniam debitis nam odit cupiditate dolor quos
-        excepturi possimus repellendus officiis distinctio autem voluptate
-        soluta dolores, temporibus eum ducimus ullam sunt atque, reiciendis
-        nemo. Exercitationem sapiente culpa, sint expedita quas beatae
-        perferendis debitis ad, ullam ratione molestias dicta esse illum quos
-        maxime veritatis praesentium repellat?
-      </section>
-      <section>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam
-        perspiciatis, explicabo et sint voluptate dolorum, optio quos
-        dignissimos, nesciunt eaque dicta odit ea veniam vitae! Cupiditate odit
-        debitis molestias rerum eius, maxime voluptas iste beatae necessitatibus
-        tempora commodi veritatis nulla quidem dolorum, repudiandae eligendi
-        optio nobis, doloribus dolorem rem dolores corrupti quibusdam atque.
-        Ratione, inventore veniam debitis nam odit cupiditate dolor quos
-        excepturi possimus repellendus officiis distinctio autem voluptate
-        soluta dolores, temporibus eum ducimus ullam sunt atque, reiciendis
-        nemo. Exercitationem sapiente culpa, sint expedita quas beatae
-        perferendis debitis ad, ullam ratione molestias dicta esse illum quos
-        maxime veritatis praesentium repellat?
-      </section>
     </main>
   );
 };

@@ -82,7 +82,7 @@ const Resume = forwardRef<HTMLElement, ResumeProps>((props, ref) => {
           </div>
         </div>
         <div className="outline outline-1 w-full h-full flex flex-col justify-start items-start gap-2 divide-y-2">
-
+          
         </div>
       </section>
     </main>

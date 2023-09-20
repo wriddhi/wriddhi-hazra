@@ -53,7 +53,7 @@ export default function Home() {
       <MotionSection className="lg:my-20 ">
         <Skills />
       </MotionSection>
-      {Array(10)
+      {Array(0)
         .fill(0)
         .map((_, index) => (
           <MotionSection delay={index/2} className="text-justify lg:text-3xl" key={index}>
